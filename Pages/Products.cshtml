@@ -1,0 +1,48 @@
+﻿@page "/products/getall"
+@model ProductsApp.Pages.ProductsModel
+
+<h2 class="text-center mb-4">Products</h2>
+<a class="btn btn-primary btn-lg mb-4" href="/products/create">Add Product</a>
+
+<table class="mx-auto table-dark text-center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Quantity</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Products != null && Model.Products.Count > 0)
+        {
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.ProdName</td>
+                    <td>@product.ProdDescription</td>
+                    <td>
+                        <a class="btn btn-primary" href="/products/@product.Id/update">Edit</a>
+                        <a class="btn btn-primary" href="javascript:void(0)" onclick="confirmDelete(@product.Id)">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No products found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @if (Model.ErrorObj != null)
+    {
+        <p>@Model.ErrorObj.Message</p>
+    }
+</div>

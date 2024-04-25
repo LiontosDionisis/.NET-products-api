@@ -1,0 +1,516 @@
+[2024-04-25 17:02:42.530 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:02:42.958 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:02:42.960 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:02:42.960 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:02:42.961 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:02:55.584 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/""" - null null
+[2024-04-25 17:02:55.592 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:02:55.603 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-04-25 17:02:55.658 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-04-25 17:02:55.664 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-04-25 17:02:55.666 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-04-25 17:02:55.668 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-04-25 17:02:55.669 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:02:55.752 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 90.9993ms
+[2024-04-25 17:02:55.754 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-04-25 17:02:55.757 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/""" - 200 null "text/html; charset=utf-8" 174.0333ms
+[2024-04-25 17:02:55.777 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[2024-04-25 17:02:55.777 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[2024-04-25 17:02:55.777 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:02:55.777 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/jquery/dist/jquery.min.js""" - null null
+[2024-04-25 17:02:55.777 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[2024-04-25 17:02:55.777 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[2024-04-25 17:02:55.790 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\wwwroot\css\site.css"'
+[2024-04-25 17:02:55.790 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/ProductsApp.styles.css"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\obj\Debug\net8.0\scopedcss\bundle\ProductsApp.styles.css"'
+[2024-04-25 17:02:55.791 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\wwwroot\js\site.js"'
+[2024-04-25 17:02:55.792 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 15.4013ms
+[2024-04-25 17:02:55.793 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 200 1129 "text/css" 16.3554ms
+[2024-04-25 17:02:55.794 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 17.1004ms
+[2024-04-25 17:02:55.816 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+[2024-04-25 17:02:55.819 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 200 162720 "text/css" 41.9965ms
+[2024-04-25 17:02:55.838 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+[2024-04-25 17:02:55.840 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 62.6713ms
+[2024-04-25 17:02:55.862 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+[2024-04-25 17:02:55.865 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 87.8216ms
+[2024-04-25 17:02:55.892 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/favicon.ico""" - null null
+[2024-04-25 17:02:55.901 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp\wwwroot\favicon.ico"'
+[2024-04-25 17:02:55.902 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/favicon.ico""" - 200 5430 "image/x-icon" 10.6153ms
+[2024-04-25 17:03:01.986 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:03:01.991 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:03:01.995 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:03:01.998 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 1.6815ms
+[2024-04-25 17:03:01.999 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:03:02.001 +03:00 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'ProductsApp.Pages.ProductsModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-04-25 17:03:02.022 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 500 null "text/html; charset=utf-8" 35.5362ms
+[2024-04-25 17:05:19.766 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:05:23.780 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:05:23.848 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:05:23.850 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:05:23.850 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:05:23.851 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:05:28.079 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:05:28.086 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:05:28.093 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:05:28.110 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:05:28.138 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:05:28.336 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:05:28.337 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:05:28.375 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 262.311ms
+[2024-04-25 17:05:28.378 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:05:28.381 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 302.6745ms
+[2024-04-25 17:05:28.387 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:05:28.391 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:05:28.392 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.2705ms
+[2024-04-25 17:06:11.690 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:06:53.715 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:06:53.783 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:06:53.784 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:06:53.785 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:06:53.786 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:06:55.804 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:06:55.811 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:06:55.819 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:06:55.836 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:06:55.858 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:06:55.886 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:06:55.887 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:06:55.927 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 88.9527ms
+[2024-04-25 17:06:55.929 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:06:55.932 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 128.7152ms
+[2024-04-25 17:06:55.936 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:06:55.941 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:06:55.942 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.8812ms
+[2024-04-25 17:06:56.911 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:06:56.914 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:06:56.915 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:06:56.917 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:06:56.919 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:06:56.920 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:06:56.929 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 12.5984ms
+[2024-04-25 17:06:56.930 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:06:56.930 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 19.7573ms
+[2024-04-25 17:06:58.943 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:06:58.945 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:06:58.946 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:06:58.948 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:06:58.950 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:06:58.951 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:06:58.953 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 6.1947ms
+[2024-04-25 17:06:58.954 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:06:58.955 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 11.9486ms
+[2024-04-25 17:07:47.599 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:07:47.602 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:07:47.603 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:07:47.606 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:07:47.608 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:07:47.609 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:07:47.611 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 5.2865ms
+[2024-04-25 17:07:47.612 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:07:47.613 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 13.0321ms
+[2024-04-25 17:07:47.619 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:07:47.622 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:07:47.623 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 3.3101ms
+[2024-04-25 17:08:47.661 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:08:51.939 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:08:52.005 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:08:52.007 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:08:52.008 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:08:52.008 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:08:54.621 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:08:54.627 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:08:54.635 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:08:54.652 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:08:54.676 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:08:54.703 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:08:54.705 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:08:54.744 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 89.1616ms
+[2024-04-25 17:08:54.747 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:08:54.749 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 129.5636ms
+[2024-04-25 17:08:54.753 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:08:54.757 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:08:54.759 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 6.1076ms
+[2024-04-25 17:09:33.954 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:09:37.457 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:09:37.537 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:09:37.538 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:09:37.539 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:09:37.540 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:09:40.270 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:09:40.277 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:09:40.285 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:09:40.302 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:09:40.328 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:09:40.354 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:09:40.355 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:09:40.394 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 89.1536ms
+[2024-04-25 17:09:40.397 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:09:40.400 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 130.6572ms
+[2024-04-25 17:09:40.882 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:09:40.884 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:09:40.885 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:09:40.887 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:09:40.889 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:09:40.890 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:09:40.894 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 7.9446ms
+[2024-04-25 17:09:40.895 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:09:40.896 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 14.5734ms
+[2024-04-25 17:09:41.540 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:09:41.542 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:09:41.543 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:09:41.545 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:09:41.547 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:09:41.547 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:09:41.549 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 4.9172ms
+[2024-04-25 17:09:41.550 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:09:41.550 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 9.9486ms
+[2024-04-25 17:10:07.875 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:11:25.920 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:11:25.987 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:11:25.989 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:11:25.990 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:11:25.990 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:11:27.843 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:11:27.850 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:11:27.858 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:11:27.874 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:11:27.897 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:11:27.923 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:11:27.963 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 86.146ms
+[2024-04-25 17:11:27.966 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:11:27.968 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 125.8307ms
+[2024-04-25 17:11:27.973 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:11:27.978 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:11:27.979 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.3299ms
+[2024-04-25 17:11:30.511 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:11:30.514 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:11:30.515 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:11:30.517 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:11:30.519 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:11:30.523 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 7.0534ms
+[2024-04-25 17:11:30.524 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:11:30.525 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 13.4538ms
+[2024-04-25 17:12:42.996 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:13:47.616 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:13:47.696 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:13:47.698 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:13:47.699 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:13:47.700 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:13:48.628 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:13:48.635 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:13:48.644 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:13:48.661 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:13:48.684 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:13:48.710 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:13:48.755 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 91.6494ms
+[2024-04-25 17:13:48.757 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:13:48.760 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 132.36ms
+[2024-04-25 17:13:48.764 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:13:48.768 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:13:48.770 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.6662ms
+[2024-04-25 17:13:49.324 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:13:49.327 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:13:49.328 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:13:49.330 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:13:49.332 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:13:49.337 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 7.5927ms
+[2024-04-25 17:13:49.338 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:13:49.339 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 14.1164ms
+[2024-04-25 17:13:49.656 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:13:49.658 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:13:49.659 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:13:49.661 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:13:49.663 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:13:49.665 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 5.763ms
+[2024-04-25 17:13:49.666 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:13:49.667 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 11.1064ms
+[2024-04-25 17:13:50.178 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:13:50.181 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:13:50.181 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:13:50.182 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:13:50.184 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:13:50.186 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 3.668ms
+[2024-04-25 17:13:50.187 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:13:50.188 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 9.1898ms
+[2024-04-25 17:15:31.976 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:17:33.728 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:17:33.810 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:17:33.812 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:17:33.812 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:17:33.813 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:17:35.239 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:17:35.245 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:17:35.253 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:17:35.276 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:17:35.300 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:17:35.330 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:17:35.331 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:17:35.370 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 90.5554ms
+[2024-04-25 17:17:35.372 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:17:35.375 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 136.7889ms
+[2024-04-25 17:17:35.380 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[2024-04-25 17:17:35.382 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[2024-04-25 17:17:35.383 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:17:35.383 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/jquery/dist/jquery.min.js""" - null null
+[2024-04-25 17:17:35.383 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[2024-04-25 17:17:35.383 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[2024-04-25 17:17:35.385 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+[2024-04-25 17:17:35.385 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/css/site.css" was not modified
+[2024-04-25 17:17:35.386 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:17:35.387 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/lib/jquery/dist/jquery.min.js" was not modified
+[2024-04-25 17:17:35.388 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+[2024-04-25 17:17:35.390 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/js/site.js" was not modified
+[2024-04-25 17:17:35.391 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 304 null "text/css" 11.0129ms
+[2024-04-25 17:17:35.391 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 304 null "text/css" 9.2773ms
+[2024-04-25 17:17:35.392 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 9.5154ms
+[2024-04-25 17:17:35.393 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/jquery/dist/jquery.min.js""" - 304 null "text/javascript" 10.3171ms
+[2024-04-25 17:17:35.394 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 304 null "text/javascript" 11.0928ms
+[2024-04-25 17:17:35.395 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 304 null "text/javascript" 11.7482ms
+[2024-04-25 17:17:35.407 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/favicon.ico""" - null null
+[2024-04-25 17:17:35.409 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/favicon.ico" was not modified
+[2024-04-25 17:17:35.410 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/favicon.ico""" - 304 null "image/x-icon" 2.3429ms
+[2024-04-25 17:20:01.627 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:20:01.629 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:20:01.630 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:20:01.632 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:20:01.634 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:20:01.635 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:20:01.639 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 7.7815ms
+[2024-04-25 17:20:01.640 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:20:01.641 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 14.1922ms
+[2024-04-25 17:20:01.647 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:20:01.649 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:20:01.650 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 2.79ms
+[2024-04-25 17:20:05.454 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:23:48.367 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:23:48.432 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:23:48.433 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:23:48.434 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:23:48.435 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:23:56.232 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:23:56.239 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:23:56.249 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:23:56.270 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:23:56.298 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:23:56.335 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:23:56.336 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:23:56.380 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 106.5782ms
+[2024-04-25 17:23:56.382 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:23:56.385 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 153.174ms
+[2024-04-25 17:23:56.388 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:23:56.392 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:23:56.393 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.2498ms
+[2024-04-25 17:24:49.930 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:24:53.365 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:24:53.428 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:24:53.430 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:24:53.431 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:24:53.431 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:25:07.468 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:25:11.976 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:25:12.058 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:25:12.060 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:25:12.061 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:25:12.061 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:25:13.899 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:25:13.905 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:25:13.913 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:25:13.930 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:25:13.954 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:25:13.970 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:25:13.971 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:25:14.010 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 76.4447ms
+[2024-04-25 17:25:14.012 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:25:14.015 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 116.875ms
+[2024-04-25 17:28:05.013 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:28:08.297 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:28:08.365 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:28:08.367 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:28:08.367 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:28:08.368 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:28:09.741 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:28:09.748 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:28:09.757 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:28:09.774 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:28:09.797 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:28:09.814 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:28:09.815 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:28:09.854 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 77.3876ms
+[2024-04-25 17:28:09.856 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:28:09.859 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 118.0433ms
+[2024-04-25 17:28:09.864 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:28:09.868 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:28:09.869 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.3081ms
+[2024-04-25 17:28:27.718 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:28:27.722 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:28:27.723 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:28:27.724 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:28:27.726 +03:00 ProductsApp.Services.ProductServiceImpl [Error] Error in fetching all products
+[2024-04-25 17:28:27.727 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:28:27.730 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 6.3752ms
+[2024-04-25 17:28:27.731 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:28:27.732 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 13.7174ms
+[2024-04-25 17:29:01.781 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:29:18.523 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:29:18.589 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:29:18.591 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:29:18.592 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:29:18.592 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:29:23.205 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:29:23.211 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:29:23.220 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:29:23.236 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:29:23.259 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:29:23.542 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:29:23.580 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 341.1169ms
+[2024-04-25 17:29:23.583 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:29:23.586 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 381.3448ms
+[2024-04-25 17:30:55.913 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:30:55.917 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:30:55.918 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:30:55.920 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:30:55.927 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:30:55.931 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 12.0187ms
+[2024-04-25 17:30:55.932 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:30:55.933 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 20.32ms
+[2024-04-25 17:30:55.941 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[2024-04-25 17:30:55.941 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[2024-04-25 17:30:55.942 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/jquery/dist/jquery.min.js""" - null null
+[2024-04-25 17:30:55.942 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[2024-04-25 17:30:55.942 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[2024-04-25 17:30:55.947 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/lib/jquery/dist/jquery.min.js" was not modified
+[2024-04-25 17:30:55.947 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/css/site.css" was not modified
+[2024-04-25 17:30:55.947 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+[2024-04-25 17:30:55.948 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+[2024-04-25 17:30:55.950 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/js/site.js" was not modified
+[2024-04-25 17:30:55.951 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/jquery/dist/jquery.min.js""" - 304 null "text/javascript" 9.1436ms
+[2024-04-25 17:30:55.952 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 304 null "text/css" 10.4535ms
+[2024-04-25 17:30:55.952 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 304 null "text/css" 11.7554ms
+[2024-04-25 17:30:55.953 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 304 null "text/javascript" 11.0898ms
+[2024-04-25 17:30:55.954 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 304 null "text/javascript" 11.8454ms
+[2024-04-25 17:30:55.965 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/favicon.ico""" - null null
+[2024-04-25 17:30:55.967 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/favicon.ico" was not modified
+[2024-04-25 17:30:55.968 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/favicon.ico""" - 304 null "image/x-icon" 3.0818ms
+[2024-04-25 17:34:29.003 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:34:32.334 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:34:32.401 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:34:32.403 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:34:32.404 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:34:32.404 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:34:36.576 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:34:36.582 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:34:36.590 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:34:36.606 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:34:36.630 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:34:36.721 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:34:36.761 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 151.5915ms
+[2024-04-25 17:34:36.763 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:34:36.766 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 190.9508ms
+[2024-04-25 17:34:36.769 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-04-25 17:34:36.773 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-04-25 17:34:36.774 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 5.6729ms
+[2024-04-25 17:34:37.217 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:34:37.220 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:34:37.221 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:34:37.223 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:34:37.227 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:34:37.231 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 8.6498ms
+[2024-04-25 17:34:37.232 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:34:37.233 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 16.0466ms
+[2024-04-25 17:34:42.565 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
+[2024-04-25 17:37:29.409 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Dioni\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-04-25 17:37:29.477 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5051"
+[2024-04-25 17:37:29.479 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-04-25 17:37:29.480 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-04-25 17:37:29.481 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp"
+[2024-04-25 17:37:33.783 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:33.789 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-04-25 17:37:33.798 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:33.814 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:33.837 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:33.930 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:33.969 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 152.2612ms
+[2024-04-25 17:37:33.972 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:33.975 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 192.5425ms
+[2024-04-25 17:37:34.319 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:34.322 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:34.323 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:34.324 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:34.329 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:34.333 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 9.1667ms
+[2024-04-25 17:37:34.333 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:34.334 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 15.3811ms
+[2024-04-25 17:37:34.472 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:34.475 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:34.475 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:34.477 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:34.479 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:34.481 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 5.1628ms
+[2024-04-25 17:37:34.482 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:34.483 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 11.6289ms
+[2024-04-25 17:37:34.596 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:34.598 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:34.598 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:34.599 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:34.602 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:34.603 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 4.3207ms
+[2024-04-25 17:37:34.605 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:34.605 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 9.45ms
+[2024-04-25 17:37:34.734 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:34.736 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:34.736 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:34.738 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:34.741 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:34.742 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 4.9281ms
+[2024-04-25 17:37:34.743 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:34.744 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 9.7793ms
+[2024-04-25 17:37:34.862 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:34.864 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:34.865 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:34.866 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:34.868 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:34.869 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 3.4231ms
+[2024-04-25 17:37:34.870 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:34.871 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 8.6885ms
+[2024-04-25 17:37:34.990 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:34.992 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:34.992 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:34.993 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:34.996 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:34.997 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 3.9661ms
+[2024-04-25 17:37:34.998 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:34.999 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 8.8365ms
+[2024-04-25 17:37:35.098 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:35.100 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:35.101 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:35.102 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:35.105 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:35.107 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 5.2804ms
+[2024-04-25 17:37:35.108 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:35.109 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 10.6597ms
+[2024-04-25 17:37:35.230 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - null null
+[2024-04-25 17:37:35.232 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products"'
+[2024-04-25 17:37:35.233 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products\"}". Executing page "/Products"
+[2024-04-25 17:37:35.234 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ProductsModel.OnGet" - ModelState is Valid
+[2024-04-25 17:37:35.236 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-04-25 17:37:35.239 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products" in 5.2874ms
+[2024-04-25 17:37:35.240 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products"'
+[2024-04-25 17:37:35.241 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5051""""/products/getall""" - 200 null "text/html; charset=utf-8" 10.4512ms
+[2024-04-25 17:37:53.489 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...
