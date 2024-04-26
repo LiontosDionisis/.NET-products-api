@@ -1,0 +1,54 @@
+﻿@page "/products/{id}/update"
+@model ProductsApp.Pages.UpdateModel
+@{
+}
+
+<form method="POST">
+	<div class="row mb-3">
+		<label for="quantity" class="col-md-1">Quantity</label>
+		<div class="col-md-6">
+			<input type="text" class="form-control" name="quantity" id="quantity" placeholder="Enter quantity" value="@Model.ProductUpdateDTO!.Quantity" />
+		</div>
+	</div>
+
+	<div class="row mb-3">
+		<label for="prodName" class="col-md-1">Product Name</label>
+		<div class="col-md-6">
+			<input type="text" class="form-control" name="prodName" id="prodName" placeholder="Enter name for product" value="@Model.ProductUpdateDTO!.ProdName" />
+		</div>
+	</div>
+
+	<div class="row mb-3">
+		<label for="prodDesc" class="col-md-1">Description</label>
+		<div class="col-md-6">
+			<input type="text" class="form-control" name="prodDesc" id="prodDesc" placeholder="Enter description" value="@Model.ProductUpdateDTO!.ProdDescription" />
+		</div>
+	</div>
+
+	<div>
+		<div class="row mb-3">
+			<div class="offset-md-1 col-md-3 d-grid">
+				<button class="btn btn-primary" type="submit">Submit</button>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<div class="offset-md-1 col-md-3 d-grid">
+				<a class="btn btn-otuline-primary" href="/products/getall">Cancel</a>
+			</div>
+		</div>
+	</div>
+
+
+</form>
+
+<div>
+	@if (Model.ErrorArray!.Count != 0)
+	{
+		@foreach (var error in Model.ErrorArray)
+		{
+			<div>
+				<p>@error.Message</p>
+			</div>
+		}
+	}
+</div>
