@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dioni\source\repos\WebStarterApp\ProductsApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dioni/source/repos/WebStarterApp/ProductsApp/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dioni/source/repos/WebStarterApp/ProductsApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
